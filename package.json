@@ -1,0 +1,29 @@
+{
+  "name": "test-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "startServer": "node ./server/index.js",
+    "devStartServer": "nodemon ./server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DjailinVasu/-test-blog.git"
+  },
+  "author": "djailin.vasu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DjailinVasu/-test-blog/issues"
+  },
+  "homepage": "https://github.com/DjailinVasu/-test-blog#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
